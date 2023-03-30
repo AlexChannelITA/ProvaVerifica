@@ -6,7 +6,10 @@ namespace Prova
     {
         static void Main(string[] args)
         {
-            int[] valori = new int[5];
+            Console.WriteLine("Quanti numeri interi vuoi inserire?");
+            int dim = Convert.ToInt32(Console.ReadLine());
+
+            int[] valori = new int[dim];
             int min = valori[0];
 
             for(int i =0; i<valori.Length; i++)
