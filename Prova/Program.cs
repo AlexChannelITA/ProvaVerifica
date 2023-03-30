@@ -29,8 +29,13 @@ namespace Prova
                 }
 
             }
+
+            Console.WriteLine($"I valori inseriti, ordinati in senso crescente sono: ");
             foreach (int a in valori)
-                Console.WriteLine($"sort 1 valori ordinati:/n {a}");
+            {
+                Console.Write($"{a} ");
+            }
+                
 
 
         }
