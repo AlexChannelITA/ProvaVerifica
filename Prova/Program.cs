@@ -6,8 +6,14 @@ namespace Prova
     {
         static void Main(string[] args)
         {
-            int[] valori = { 19, 44, 38, 15, 40 };
+            int[] valori = new int[5];
             int min = valori[0];
+
+            for(int i =0; i<valori.Length; i++)
+            {
+                Console.Write("Dimmi un valore intero: ");
+                valori[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
             for (int i = 0; i <= valori.Length - 1; i++)
             {
